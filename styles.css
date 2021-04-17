@@ -1,0 +1,86 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 38px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+
+  .active-nav-link{
+      border-bottom:1px solid black;
+  }
+
+  .active-nav-link a{
+    border-bottom: black !important;
+}
+
+
+
+  /*About & Contact Page */
+  .two-column-wrapper{
+      display:grid;
+      grid-template-columns: 0.5fr 1fr;
+  }
+
+  .profile-image-wrapper img{
+      Width:60%;
+      position: center;
+
+  }
+
+  .profile-content-wrapper {
+      padding: 30px;
+  }
+.profile-content-wrapper h1{
+    color: cadetblue;
+}
+
+.profile-content-wrapper2 h1{
+    color:tomato;
+}
+
+.footer {
+    font-size: 0.7em;
+    color:lightgrey
+}

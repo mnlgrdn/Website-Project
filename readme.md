@@ -1,0 +1,1 @@
+Navigation bar created with the help of Jordan Hudgens fron Udemy: https://www.youtube.com/watch?v=5bMdjkfvONE
